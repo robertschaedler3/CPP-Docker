@@ -1,18 +1,17 @@
 # C/C++ Docker Development
 
-## Dockerfile
-
 The included `Dockerfile` is intended to serve as a basline for C/C++. It includes the following packages:
 - [build-essential](https://packages.ubuntu.com/bionic/build-essential)
 - [valgrind](https://valgrind.org/)
 - [gdb](https://www.geeksforgeeks.org/gdb-step-by-step-introduction/)
 
+
+## Getting Started
+
 Build Docker Image:
 ```bash
 docker build -f Dockerfile -t cpp:latest .
 ```
-
-## Getting Started
 
 Run the following to gain access to a terminal in your container:
 ```bash
