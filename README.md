@@ -22,7 +22,7 @@ docker-compose run --rm devenv bash -c 'cd /home && bash'
 
 This will mount your current woring directory to the home directory.
 
-# Additional Files
+## Additional Files
 
 Makefile
 ```shell
